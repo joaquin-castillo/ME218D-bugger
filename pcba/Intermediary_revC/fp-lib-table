@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "CP2102N-A02-GQFN24")(type "KiCad")(uri "${KIPRJMOD}/lib/CP2102N-A02-GQFN24")(options "")(descr ""))
+  (lib (name "USB4085-GF-A_REVA4")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4085-GF-A_REVA4")(options "")(descr ""))
+  (lib (name "PIC32MX270F256B-50I_SP")(type "KiCad")(uri "${KIPRJMOD}/lib/PIC32MX270F256B-50I_SP")(options "")(descr ""))
+)

@@ -1,0 +1,171 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.1524,
+"PadToPad": 0.1524,
+"PadToTrack": 0.1524,
+"TrackToTrack": 0.1524
+},
+{
+"Layers": "Inner",
+"PadToPad": 0.0,
+"PadToTrack": 0.0,
+"RegionToRegion": 0.1524,
+"TrackToRegion": 0.1524,
+"TrackToTrack": 0.1524
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Inr",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-In1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L3,Inr",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-In2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L4,Bot",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "Intermediary_revC-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "Intermediary_revC-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "Intermediary_revC-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"Finish": "None",
+"LayerNumber": 4,
+"ProjectId": {
+"GUID": "496e7465-726d-4656-9469-6172795f7265",
+"Name": "Intermediary_revC_4layer",
+"Revision": "rev?"
+},
+"Size": {
+"X": 50.9,
+"Y": 22.325
+}
+},
+"Header": {
+"CreationDate": "2022-12-19T16:29:32-08:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(6.0.7)"
+}
+},
+"MaterialStackup": [
+{
+"Color": "White",
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "Green",
+"Name": "Top Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "F.Cu/In1.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)",
+"Thickness": 0.122,
+"Type": "Dielectric"
+},
+{
+"Name": "In1.Cu",
+"Thickness": 0.0175,
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "In1.Cu/In2.Cu",
+"Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)",
+"Thickness": 1.231,
+"Type": "Dielectric"
+},
+{
+"Name": "In2.Cu",
+"Thickness": 0.0175,
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "In2.Cu/B.Cu",
+"Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)",
+"Thickness": 0.122,
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Color": "Green",
+"Name": "Bottom Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "White",
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}
