@@ -21,11 +21,13 @@ Upon receiving the board from the fab house, they will still require a few compo
 - 1206 SMD Blue LEDs x2
 - 1206 SMD 620 Ohm resistor
 
-These can be found in the *Intermediary_revC_BOM.xlsx* file with links for DigiKey.
+These can be found in the *Intermediary_revC_BOM.xlsx* file with links for DigiKey. The image below shows all seven components to be hand soldered:
+
+[insert image]
 
 Additionally, the boards must be configured at assembly to work with either the CP2102N serial bridge, or the PIC32's native USB. To do this, simply create solder bridges on the three jumper pads on the back side of the board as shown below:
 
-[insert image(s)]
+[insert image]
 
 To reconfigure the boards in the future, simply wick away the solder bridges and resolder the opposite pads.
 
@@ -33,3 +35,10 @@ To reconfigure the boards in the future, simply wick away the solder bridges and
 
 
 ## Firmware
+### PIC32 Microcontroller
+The PIC needs to be programmed with the latest version of the D-bugger firmware. The latest firmware can be found [here]. Using a breadboard or ZIF socket, program the PIC with the SNAP programmer through MPLAB.
+
+### CP2102N Serial Bridge
+Though the serial bridge will work out-of-the-box, it should be configured to enable the RX and TX toggle LEDs, which are disabled by default. These LEDs are helpful for troublshooting communications issues from the target or to the host.
+
+To do this, you must download Silicon Lab [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio) and install it on your computer. You may also be asked to create an account. Once installed, (to be continued...)
