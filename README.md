@@ -23,11 +23,12 @@ Upon receiving the board from the fab house, they will still require a few compo
 
 These can be found in the *Intermediary_revC_BOM.xlsx* file with links for DigiKey. The image below shows all seven components to be hand soldered:
 
-[insert image]
+<img src="/assets/hand_soldering.jpg" alt="hand_soldering" style="width:300px">
+
 
 Additionally, the boards must be configured at assembly to work with either the CP2102N serial bridge, or the PIC32's native USB. To do this, simply create solder bridges on the three jumper pads on the back side of the board as shown below:
 
-[insert image]
+<img src="/assets/solder_jumpers.png" alt="solder_jumpers" style="width:300px">
 
 To reconfigure the boards in the future, simply wick away the solder bridges and resolder the opposite pads.
 
