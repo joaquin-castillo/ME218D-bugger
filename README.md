@@ -42,36 +42,36 @@ The PIC needs to be programmed with the latest version of the D-bugger firmware.
 ### CP2102N Serial Bridge
 Though the serial bridge will work out-of-the-box, it should be configured to enable the RX and TX toggle LEDs, which are disabled by default. These LEDs are helpful for troublshooting communications issues from the target or to the host.
 
-To do this, you must download Silicon Lab [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio) and install it on your computer. You may be asked to create an account. Once installed, plug the D-bugger into your computer before opening the application. Once open, you shoud this the following window. If not, close or cancel out of any pop-up windows that may have appeared.
+To do this, you must download Silicon Labs [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio) and install it on your computer. You may be asked to create an account. Once installed, plug the D-bugger into your computer before opening the application. Once open, you shoud see the following window. If not, close or cancel out of any pop-up windows that may have appeared.
 
-<img src="/assets/simplicity_studio_1.png" alt="simplicity_studio_1" style="width:300px">
+<img src="/assets/simplicity_studio_1.PNG" alt="simplicity_studio_1" style="width:750px">
 
 The CP2102N serial bridge should appear under **Connected Devices**. Click on **Start** to continue to the next screen.
 
-<img src="/assets/simplicity_studio_2.png" alt="simplicity_studio_2" style="width:300px">
+<img src="/assets/simplicity_studio_2.PNG" alt="simplicity_studio_2" style="width:750px">
 
-Click on **Create New Project**. The example project selected should be the **Xpress Configuration Project**.
+Next, click on **Create New Project**.
 
-<img src="/assets/simplicity_studio_3.png" alt="simplicity_studio_3" style="width:300px">
+<img src="/assets/simplicity_studio_3.PNG" alt="simplicity_studio_3" style="width:750px">
 
-Click on **Next** to continue.
+The example project selected should be the **Xpress Configuration Project**. Click on **Next** to continue.
 
-<img src="/assets/simplicity_studio_4s.png" alt="simplicity_studio_4" style="width:300px">
+<img src="/assets/simplicity_studio_4.PNG" alt="simplicity_studio_4" style="width:750px">
 
-Here you can rename the project and choose where it will be saved. You can leave these as they are or modify them. Then click on **Finish**.
+Here you can rename the project and choose where it will be saved. Once you're done, click on **Finish**.
 
-<img src="/assets/simplicity_studio_5.png" alt="simplicity_studio_5" style="width:300px">
+<img src="/assets/simplicity_studio_5.PNG" alt="simplicity_studio_5" style="width:750px">
 
-You are now able to configure the chip's firmware as you please. To enable the RX and TX toggle LEDs, scrol down to **Port Configuration: GPIO**. Be careful not to scroll with you mouse over a dropdown menu as the manu can cycle through its options and set some undesired configuration.
+You are now able to configure the chip's firmware. To enable the RX and TX toggle LEDs, scroll down to **Port Configuration: GPIO**. Be careful not to scroll with your cusor over a dropdown menu as the menu can cycle through its options and set some undesired configuration.
 
-<img src="/assets/simplicity_studio_6.png" alt="simplicity_studio_6" style="width:300px">
+<img src="/assets/simplicity_studio_6.PNG" alt="simplicity_studio_6" style="width:750px">
 
-Under **Alternate Function** for **GPIO0** and **GPIO1** select **TX Toggle** and **RX Toggle** from the dropdown menu respectively. No other reconfigurations are necessary for the D-bugger. Click on **Save** and **Program To Device** to flash to reprogram the chip.
+Under **Alternate Function**, for **GPIO0** and **GPIO1** select **TX Toggle** and **RX Toggle** from their respective dropdown menus. No other reconfigurations are necessary for the D-bugger. Click on **Save** and **Program To Device** to reprogram the chip.
 
-<img src="/assets/simplicity_studio_7.png" alt="simplicity_studio_7" style="width:300px">
+<img src="/assets/simplicity_studio_8.PNG" alt="simplicity_studio_8" style="width:250px">
 
-In the pop-up window, ensure the CP2102N chip is selected and clock on **OK**.
+In the pop-up window, ensure the CP2102N chip is selected and click on **OK**.
 
-<img src="/assets/simplicity_studio_8.png" alt="simplicity_studio_8" style="width:300px">
+<img src="/assets/simplicity_studio_9.PNG" alt="simplicity_studio_9" style="width:750px">
 
-To know that the device has been successfully programed, you will see the following message in the **Status** window. You are now done and may now close out of the application.
+To confirm that the device has been successfully programed, you will see the following message in the **Status** window. You are now done and may now close out of the application!
